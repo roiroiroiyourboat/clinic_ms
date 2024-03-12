@@ -129,6 +129,28 @@
     justify-content: space-between;
 }
 
+.main nav{
+  height: 90%;
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main nav .side{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.main nav .side .my_profile, .main nav .side i{
+  font-size: 40px;
+  margin-right: 2px;
+}
 
 .w-450 {
   left:-150px;
@@ -138,6 +160,7 @@ width: 500px;
   font-size: 20px;
 
 }
+
 .b-1 {
 min-height: 100vh;
   top:1px;
@@ -145,12 +168,14 @@ min-height: 100vh;
   position: relative;
   left:260px;
 }
+
 .bx-3 {
   left:-260px;
   position: relative;
   padding-left: 25px;
 width: 350px
 }
+
 .side{
   top:1px;
   min-height: 1vh;

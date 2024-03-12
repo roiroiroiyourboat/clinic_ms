@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>BulSU-SC Log in form</title>
+        <title>BulSU-SC Login</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="log_in.css">
@@ -13,7 +13,7 @@
                     <header><img src="BulSU Logo.png" alt="logo">
                         <img src="BulSU-SC Logo.png" alt="logo">      
                     </header>
-                    <p>Log In</p>
+                    <p>Log in</p>
                 </div>
 
                 <form action="login_config.php" method="post">

@@ -131,27 +131,36 @@
 
 /*header title*/
 .main{
-    background: #ffffff;
-    position: relative;
-    min-height: 100vh;
-    width: calc(100% - 260px);
-    left: 260px;
-
+  background: #ffffff;
+  position: relative;
+  min-height: 100vh;
+  width: calc(100% - 260px);
+  left: 260px;
 }
 
 .main .box{
-    margin: 10px;
+  margin: 10px;
+}
+
+
+.main nav{
+  height: 90%;
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main nav .side{
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 500;
-    
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px;
 }
 
 .main nav .side .dashboard, .main nav .side i{
-    font-size: 40px;
-    margin-right: 2px;
+  font-size: 40px;
+  margin-right: 2px;
 }

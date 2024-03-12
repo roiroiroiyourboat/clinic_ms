@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard.css">
     <!--Boxicons link-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -18,53 +19,7 @@
 
 </head>
 <body>
-        <!--<div class="sidebar">
-            <div class="logo">
-            <img src="BulSU-SC Logo.png" alt="BULSU-SC LOGO"> 
-            <p class="logo_name">BULSU-SC CLINIC</p>
-            </div>
-
-            <ul class="nav-links">   
-            <li>
-                <a href="dashboard.php">
-                    <i class='bx bx-grid-alt'></i>
-                    <span class="link_name">Dashboard</span>
-                </a>
-            </li>
-            <li>
-                <a href="my_profile.php">
-                    <i class='bx bx-user-circle'></i>
-                    <span class="link_name">My Profile</span>
-            </li> 
-            <li>
-                <a href="patients.php">
-                    <i class='bx bx-user'></i>
-                    <span class="link_name">Patients</span>
-                </a>
-            </li>
-            <li>
-                <a href="users.php">
-                    <i class='bx bx-group' ></i>
-                    <span class="link_name">Users</span>
-                </a>
-            </li>
-            <li>
-                <a href="reports.php">
-                    <i class='bx bx-spreadsheet'></i>
-                    <span class="link_name">Reports</span>
-                </a>
-            </li> 
-            <li>
-            <div class="log_out">
-                    <a id="go" onclick="log_out()">
-                    <i class='bx bx-log-out'></i>
-                    <span class="link_name" id="logout">Log out</span></a>
-                </div>
-            </li>
-            </ul>
-            
-        </div>-->
-
+       
         <div class="sidebar">
             <div class="logo-details">
                 <img src="BulSU-SC Logo.png" alt="BULSU-SC LOGO"> 

@@ -163,8 +163,8 @@
                         <input type="number" class="form-control" name="weight" value="<?php echo $weight;?>">
                     </div>
                     <div class="col">
-                        <label for="form-label">Height(in):</label>
-                        <input type="number" class="form-control" name="height" value="<?php echo $height;?>">
+                        <label for="form-label">Height(cm):</label>
+                        <input type="text" class="form-control" name="height" value="<?php echo $height;?>">
                     </div>
                     <div class="col">
                         <label for="form-label">Blood Pressure:</label>

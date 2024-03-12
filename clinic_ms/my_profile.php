@@ -59,6 +59,7 @@
 <html>
 <head>
     <title>My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="my_profile.css">
     <!--Boxicons link-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -120,6 +121,7 @@
                     <i class='bx bx-user-circle'></i>
                     <span class="my_profile">My Profile</span>
                 </div>
+                
             </nav>
 
             <div class="d-flex justify-content-center align-items-center b-1">

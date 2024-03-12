@@ -130,11 +130,12 @@
 }
 /*search bar*/
 .main{
-    background: #f5f5f5;
+    background: #ffffff;
     position: relative;
     min-height: 100vh;
     width: calc(100% - 260px);
     left: 260px;
+   margin: 10px;
 }
 
 .main nav{
@@ -144,6 +145,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .main nav .side{
@@ -151,10 +153,9 @@
     align-items: center;
     font-size: 24px;
     font-weight: 500;
-    
 }
 
-.main nav .side .patient, .main nav .side i{
+.main nav .side .users, .main nav .side i{
     font-size: 40px;
     margin-right: 2px;
 }

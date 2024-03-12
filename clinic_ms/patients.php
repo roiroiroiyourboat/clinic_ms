@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Patients</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="patient.css">
     <!--Boxicons link-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -159,8 +160,8 @@
                         </div>
 
                         <div class="col">
-                            <label for="form-label"><b>Height(in):</b></label>
-                            <input type="number" class="form-control" id="input" name="height" placeholder="Enter height" autocomplete="off">
+                            <label for="form-label"><b>Height(cm):</b></label>
+                            <input type="text" class="form-control" id="input" name="height" placeholder="Enter height" autocomplete="off">
                         </div>
                     </div>
                     <br>
@@ -177,10 +178,12 @@
                     </div>
 
                     <div class="input_box">
-                        <button type="submit" class="btnSubmit" name="btnSubmit">Submit</button>
+                        <!--<button type="submit" class="btnSubmit" name="btnSubmit">Submit</button>-->
+                        <button type="submit" class="btn btn-success" name="btnSubmit">Submit</button>
                     </div>
                     <div class="input_box">
-                        <button type="button" class="btnClear" onclick="clearForm()">Clear</button>  
+                        <!--<button type="button" class="btnClear" onclick="clearForm()">Clear</button>-->
+                        <button type="button" class="btn btn-danger" onclick="clearForm()">Clear</button>
                     </div>
                     
                 </form>

@@ -238,7 +238,7 @@ nav .search-box .bx-search{
     height: fit-content;
     align-items: center;
     display: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 .form-container{
     width: 500px;
